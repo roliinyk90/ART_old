@@ -4,8 +4,9 @@
   "config": {
     "sort-packages": true
   },
+  "minimum-stability": "dev",
   "require": {
-    "magento/module-analytics": "*",
+    "magento/module-analytics": "*"
   },
   "type": "magento2-module",
   "license": [
