@@ -5,6 +5,7 @@ It is Magento module for help troubleshoot problems with Advanced Reporting
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Uninstall](#uninstall)
 
 
 ## Installation
@@ -24,3 +25,13 @@ It is Magento module for help troubleshoot problems with Advanced Reporting
 Run command :
 
 `php bin/magento analytics:troubleshoot`
+
+##Uninstall
+
+Disable module:
+
+`php bin/magento module:disable MagentoSupport_ART`
+
+Remove module:
+
+`composer remove magentosupport/art`
